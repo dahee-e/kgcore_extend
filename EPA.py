@@ -15,7 +15,6 @@ def getNbrMap(hypergraph, node, g):
     ng = {node: count for node, count in cnt.items() if count >= g}
     return ng
 
-@profile
 def run(hypergraph, k, g):
     H = set(hypergraph.nodes())
     S = {}

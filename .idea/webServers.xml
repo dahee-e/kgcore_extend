@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1883d91d-2172-49e6-9543-8981cb0b0e1f" name="dm">
+        <fileTransfer rootFolder="/home/dahee/kgcore_extend" accessType="SFTP" host="10.20.12.134" port="2256" sshConfigId="20ab4e88-24e5-416d-a70a-d5090a8074d3" sshConfig="dahee@10.20.12.134:2256 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

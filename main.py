@@ -12,7 +12,7 @@ import decomposition
 
 parser = argparse.ArgumentParser(description="Peeling Algorithm for Hypergraph (k, g)-core")
 parser.add_argument("--algorithm", help="Algorithm to use")
-parser.add_argument("--network", help="Path to the network file",default='./datasets/real/karate/network.hyp')
+parser.add_argument("--network", help="Path to the network file",default='./datasets/real/contact/network.hyp')
 parser.add_argument("--k", type=int, help="Value of k")
 parser.add_argument("--g", type=int, help="Value of g")
 args = parser.parse_args()

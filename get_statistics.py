@@ -26,7 +26,7 @@ def degree(hypergraph, node):
 
 
 # Usage example
-input_file = 'D:/Data/kg_core/real/meetup.hyp'
+input_file = './datasets/real/MAG/network.hyp'
 hypergraph, E = load_hypergraph(input_file)
 
 print(len(hypergraph.nodes()))
